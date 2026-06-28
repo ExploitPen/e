@@ -5,6 +5,15 @@
 <h1 style="color: red">THIS IS RED</h1>
 </body>
 <script>
-alert("YOU HAVE A VIRUS! GO TO EXPLOITPEN.GITHUB.IO/VIRUS TO GET RID OF THIS VIRUS!!!!!!!!!");
+var response = prompt("YOU HAVE A VIRUS! GO TO EXPLOITPEN.GITHUB.IO/VIRUS TO GET RID OF THIS VIRUS! WOULD YOU LIKE TO GO? (y/n)");
+  if (response == "yes"){
+  window.location.replace("exploitpen.github.io/VIRUS");
+  }
+  if (response == "no") { 
+  document.querySelector("h1").textContent="HAHAHAHAHAHAHAHAHA")
+  }
+  if (response !=='y' && !=='n'){
+  window.location.replace("https://longdogechallenge.com/")
+  }
 </script>
 </html>
